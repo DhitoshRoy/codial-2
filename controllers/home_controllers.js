@@ -1,5 +1,9 @@
 
-module.exports.home = function(req, res){
+module.exports.home = function(req, res) {
 
-    return res.end('<h1>express is up for codial !</h1>');
+
+    //
+    res.setHeader('Content-Type', 'text/html');
+
+    return res.end('<h2> Express is up for codial! </h2>');
 }
