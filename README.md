@@ -1,5 +1,5 @@
 
-# install npm by using npm init
+# install node by using npm init
 
 # install express
 
